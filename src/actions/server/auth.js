@@ -32,6 +32,11 @@ console.log(newUser);
         success:true,
         message:`user created with ${result.insertedId.toString()}`
     }
+   }else{
+    return{
+      success:false,
+      message:`Something went to wrong`
+    }
    }
 
 }
